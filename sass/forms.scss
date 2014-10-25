@@ -1,0 +1,18 @@
+/** Form Elements **/
+form {
+    input[type="text"] {
+        padding: 1.25em 1em;
+        height: 60px;
+        background: rgba($whitish, .1);
+        color: $blackish;
+        border: none;
+        @include border-radius(0);
+    }
+    label {
+        font-weight: 200;
+    }
+    button {
+        border: none;
+        width: 100%;
+    }
+}

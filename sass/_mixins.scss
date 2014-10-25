@@ -2,4 +2,22 @@
 @mixin bg-color($bg-color, $text-color: $whitish) {
     background: $bg-color;
     color: $text-color;
+    input[type="text"] {
+        background: darken($bg-color, 5%);
+        color: $text-color;
+        @extend .text-center;
+    }
+    &.button {
+        &:hover {
+            background: darken($bg-color, 5%);
+        }
+    }
+}
+
+@mixin vertical-center() {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

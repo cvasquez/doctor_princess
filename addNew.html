@@ -9,27 +9,28 @@
 </head>
 
 <body>
-        <div class="row bg-yellow">
-            <div class="col-sm-12 text-center building-block">
-                <div style="position: relative; top: 50%; -webkit-transform: translateY(-50%);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center bg-block bg-yellow">
+                <div>
                     <h2>New Checkin</h2>
                 </div>
             </div>
         </div>
         <form role="form">
-            <div class="row building-block bg-blue">
-                <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12 bg-block bg-blue">
                     <div class="form-group">
-                        <label for="patientId">Patient Id</label>
+                        <label for="patientId" class="sr-only">Patient Id</label>
                         <input type="text" class="form-control" id="patientId" placeholder="Enter patient id">
                     </div>
                 </div>
             </div>
-            <div class="row building-block bg-pink">
+            <div class="row bg-block bg-pink">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <label for="patientCategory">Patient Category</label>
-                        <select id="patientCategory" class="form-control">
+                        <label for="patientCategory" class="sr-only">Patient Category</label>
+                        <select id="patientCategory" class="form-control text-center">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -38,24 +39,19 @@
                     </div>
                 </div>
             </div>
-            <div class="row building-block bg-green">
+            <div class="row bg-block bg-green">
                 <div class="col-sm-12">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" CHECKED> Use current date and time
-                        </label>
-                    </div>
-                    <div id="datetimepicker1" class="input-append date hidden">
-                        <input data-format="dd/MM/yyyy hh:mm:ss" type="text"></input>
-                        <span class="add-on">
-                            <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
-                        </span>
+                    <div class="form-group">
+                        <label for="dateTime" class="sr-only">Date / Time</label>
+                        <input type="text" class="form-control" id="patientId" value="5:00 on 1/3/14">
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-default btn-block">Submit</button>
+            <div class="row" style="padding: 0;">
+                <button type="submit" class="bg-block bg-purple button">Submit</button>
+            </div>
         </form>
-
+    </div>
 
     <script type="text/javascript">
         $(function() {

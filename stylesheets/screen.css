@@ -1729,7 +1729,7 @@ mark,
 }
 
 /* line 97, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss */
-.text-center {
+.text-center, .bg-block.bg-blue input[type="text"], .bg-block.bg-purple input[type="text"], .bg-block.bg-pink input[type="text"], .bg-block.bg-yellow input[type="text"], .bg-block.bg-green input[type="text"] {
   text-align: center;
 }
 
@@ -8102,47 +8102,130 @@ button.close {
     display: none !important;
   }
 }
+/** Mixins **/
 /** Variables **/
 /** Colors **/
-/** Mixins **/
+/** Typography **/
+/** Form Elements **/
+/* line 3, ../sass/forms.scss */
+form input[type="text"] {
+  padding: 1.25em 1em;
+  height: 60px;
+  background: rgba(241, 241, 241, 0.1);
+  color: #4a4a4a;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 11, ../sass/forms.scss */
+form label {
+  font-weight: 200;
+}
+/* line 14, ../sass/forms.scss */
+form button {
+  border: none;
+  width: 100%;
+}
+
 /** Content Styles **/
 /* line 2, ../sass/_content.scss */
 body {
-  background: #544761;
+  background: #fed16e;
+  font-size: 16px;
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 200;
 }
 
-/* line 6, ../sass/_content.scss */
-.building-block {
-  height: 100px;
+/** Typography **/
+/* line 10, ../sass/_content.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
 }
 
 /** Color Styles **/
-/* line 11, ../sass/_content.scss */
-.bg-blue {
+/* line 16, ../sass/_content.scss */
+.bg-block {
+  height: 120px;
+}
+/* line 18, ../sass/_content.scss */
+.bg-block.bg-blue {
   background: #21747a;
   color: #f1f1f1;
 }
-
-/* line 12, ../sass/_content.scss */
-.bg-purple {
+/* line 5, ../sass/_mixins.scss */
+.bg-block.bg-blue input[type="text"] {
+  background: #1c6166;
+  color: #f1f1f1;
+}
+/* line 11, ../sass/_mixins.scss */
+.bg-block.bg-blue.button:hover {
+  background: #1c6166;
+}
+/* line 19, ../sass/_content.scss */
+.bg-block.bg-purple {
   background: #544761;
   color: #f1f1f1;
 }
-
-/* line 13, ../sass/_content.scss */
-.bg-pink {
+/* line 5, ../sass/_mixins.scss */
+.bg-block.bg-purple input[type="text"] {
+  background: #473c52;
+  color: #f1f1f1;
+}
+/* line 11, ../sass/_mixins.scss */
+.bg-block.bg-purple.button:hover {
+  background: #473c52;
+}
+/* line 20, ../sass/_content.scss */
+.bg-block.bg-pink {
   background: #f45874;
   color: #f1f1f1;
 }
-
-/* line 14, ../sass/_content.scss */
-.bg-yellow {
+/* line 5, ../sass/_mixins.scss */
+.bg-block.bg-pink input[type="text"] {
+  background: #f24060;
+  color: #f1f1f1;
+}
+/* line 11, ../sass/_mixins.scss */
+.bg-block.bg-pink.button:hover {
+  background: #f24060;
+}
+/* line 21, ../sass/_content.scss */
+.bg-block.bg-yellow {
   background: #fed16e;
   color: #4a4a4a;
 }
-
-/* line 15, ../sass/_content.scss */
-.bg-green {
+/* line 5, ../sass/_mixins.scss */
+.bg-block.bg-yellow input[type="text"] {
+  background: #fec955;
+  color: #4a4a4a;
+}
+/* line 11, ../sass/_mixins.scss */
+.bg-block.bg-yellow.button:hover {
+  background: #fec955;
+}
+/* line 22, ../sass/_content.scss */
+.bg-block.bg-green {
   background: #5fb86b;
   color: #f1f1f1;
+}
+/* line 5, ../sass/_mixins.scss */
+.bg-block.bg-green input[type="text"] {
+  background: #4eb05b;
+  color: #f1f1f1;
+}
+/* line 11, ../sass/_mixins.scss */
+.bg-block.bg-green.button:hover {
+  background: #4eb05b;
+}
+/* line 23, ../sass/_content.scss */
+.bg-block > div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

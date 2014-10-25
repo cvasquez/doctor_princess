@@ -1,3 +1,15 @@
 /** Content Styles **/
 body {
+    background: $purple;
 }
+
+.building-block {
+    height: 100px;
+}
+
+/** Color Styles **/
+    .bg-blue { @include bg-color($blue); }
+    .bg-purple { @include bg-color($purple); }
+    .bg-pink { @include bg-color($pink); }
+    .bg-yellow { @include bg-color($yellow, $blackish); }
+    .bg-green { @include bg-color($green); }

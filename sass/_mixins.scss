@@ -8,6 +8,8 @@
         @extend .text-center;
     }
     &.button {
+        font-weight: 300;
+        font-size: 1.25em;
         &:hover {
             background: darken($bg-color, 5%);
         }

@@ -8133,7 +8133,7 @@ form button {
 /** Content Styles **/
 /* line 2, ../sass/_content.scss */
 body {
-  background: #fed16e;
+  background: #544761;
   font-size: 16px;
   font-family: "Roboto", arial, sans-serif;
   font-weight: 200;
@@ -8161,7 +8161,12 @@ h1, h2, h3, h4, h5 {
   background: #1c6166;
   color: #f1f1f1;
 }
-/* line 11, ../sass/_mixins.scss */
+/* line 10, ../sass/_mixins.scss */
+.bg-block.bg-blue.button {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+/* line 13, ../sass/_mixins.scss */
 .bg-block.bg-blue.button:hover {
   background: #1c6166;
 }
@@ -8175,7 +8180,12 @@ h1, h2, h3, h4, h5 {
   background: #473c52;
   color: #f1f1f1;
 }
-/* line 11, ../sass/_mixins.scss */
+/* line 10, ../sass/_mixins.scss */
+.bg-block.bg-purple.button {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+/* line 13, ../sass/_mixins.scss */
 .bg-block.bg-purple.button:hover {
   background: #473c52;
 }
@@ -8189,7 +8199,12 @@ h1, h2, h3, h4, h5 {
   background: #f24060;
   color: #f1f1f1;
 }
-/* line 11, ../sass/_mixins.scss */
+/* line 10, ../sass/_mixins.scss */
+.bg-block.bg-pink.button {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+/* line 13, ../sass/_mixins.scss */
 .bg-block.bg-pink.button:hover {
   background: #f24060;
 }
@@ -8203,7 +8218,12 @@ h1, h2, h3, h4, h5 {
   background: #fec955;
   color: #4a4a4a;
 }
-/* line 11, ../sass/_mixins.scss */
+/* line 10, ../sass/_mixins.scss */
+.bg-block.bg-yellow.button {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+/* line 13, ../sass/_mixins.scss */
 .bg-block.bg-yellow.button:hover {
   background: #fec955;
 }
@@ -8217,7 +8237,12 @@ h1, h2, h3, h4, h5 {
   background: #4eb05b;
   color: #f1f1f1;
 }
-/* line 11, ../sass/_mixins.scss */
+/* line 10, ../sass/_mixins.scss */
+.bg-block.bg-green.button {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+/* line 13, ../sass/_mixins.scss */
 .bg-block.bg-green.button:hover {
   background: #4eb05b;
 }

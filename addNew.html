@@ -9,15 +9,24 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>New Checkin</h2>
-                <form role="form">
+        <div class="row bg-yellow">
+            <div class="col-sm-12 text-center building-block">
+                <div style="position: relative; top: 50%; -webkit-transform: translateY(-50%);">
+                    <h2>New Checkin</h2>
+                </div>
+            </div>
+        </div>
+        <form role="form">
+            <div class="row building-block bg-blue">
+                <div class="col-sm-12">
                     <div class="form-group">
                         <label for="patientId">Patient Id</label>
                         <input type="text" class="form-control" id="patientId" placeholder="Enter patient id">
                     </div>
+                </div>
+            </div>
+            <div class="row building-block bg-pink">
+                <div class="col-sm-12">
                     <div class="form-group">
                         <label for="patientCategory">Patient Category</label>
                         <select id="patientCategory" class="form-control">
@@ -27,6 +36,10 @@
                             <option>4</option>
                         </select>
                     </div>
+                </div>
+            </div>
+            <div class="row building-block bg-green">
+                <div class="col-sm-12">
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" CHECKED> Use current date and time
@@ -38,11 +51,11 @@
                             <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
                         </span>
                     </div>
-                    <button type="submit" class="btn btn-default btn-block">Submit</button>
-                </form>
+                </div>
             </div>
-        </div>
-    </div>
+            <button type="submit" class="btn btn-default btn-block">Submit</button>
+        </form>
+
 
     <script type="text/javascript">
         $(function() {

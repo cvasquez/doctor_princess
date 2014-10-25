@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +24,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -294,7 +294,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* line 377, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -331,7 +331,7 @@ th {
   /* line 8, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   * {
     text-shadow: none !important;
-    color: black !important;
+    color: #000 !important;
     background: transparent !important;
     box-shadow: none !important;
   }
@@ -361,7 +361,7 @@ th {
   /* line 35, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   pre,
   blockquote {
-    border: 1px solid #999999;
+    border: 1px solid #999;
     page-break-inside: avoid;
   }
 
@@ -397,7 +397,7 @@ th {
 
   /* line 67, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   select {
-    background: white !important;
+    background: #fff !important;
   }
 
   /* line 72, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
@@ -408,18 +408,18 @@ th {
   /* line 77, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   .table td,
   .table th {
-    background-color: white !important;
+    background-color: #fff !important;
   }
 
   /* line 83, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: black !important;
+    border-top-color: #000 !important;
   }
 
   /* line 87, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   .label {
-    border: 1px solid black;
+    border: 1px solid #000;
   }
 
   /* line 91, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
@@ -430,7 +430,7 @@ th {
   /* line 96, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_print.scss */
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #dddddd !important;
+    border: 1px solid #ddd !important;
   }
 }
 @font-face {
@@ -5926,7 +5926,7 @@ tbody.collapse.in {
 /* line 5, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_labels.scss */
 .label {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
+  padding: .2em .6em .3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -7688,7 +7688,7 @@ button.close {
   border: 1px solid white;
   border-radius: 10px;
   cursor: pointer;
-  background-color: black \9;
+  background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
 }
 /* line 180, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_carousel.scss */
@@ -8103,4 +8103,46 @@ button.close {
   }
 }
 /** Variables **/
+/** Colors **/
+/** Mixins **/
 /** Content Styles **/
+/* line 2, ../sass/_content.scss */
+body {
+  background: #544761;
+}
+
+/* line 6, ../sass/_content.scss */
+.building-block {
+  height: 100px;
+}
+
+/** Color Styles **/
+/* line 11, ../sass/_content.scss */
+.bg-blue {
+  background: #21747a;
+  color: #f1f1f1;
+}
+
+/* line 12, ../sass/_content.scss */
+.bg-purple {
+  background: #544761;
+  color: #f1f1f1;
+}
+
+/* line 13, ../sass/_content.scss */
+.bg-pink {
+  background: #f45874;
+  color: #f1f1f1;
+}
+
+/* line 14, ../sass/_content.scss */
+.bg-yellow {
+  background: #fed16e;
+  color: #4a4a4a;
+}
+
+/* line 15, ../sass/_content.scss */
+.bg-green {
+  background: #5fb86b;
+  color: #f1f1f1;
+}

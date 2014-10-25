@@ -4,6 +4,8 @@
     color: $text-color;
     input[type="text"] {
         background: darken($bg-color, 5%);
+        border-top: 1px solid darken($bg-color, 10%);
+        border-bottom: 1px solid lighten($bg-color, 5%);
         color: $text-color;
         @extend .text-center;
     }

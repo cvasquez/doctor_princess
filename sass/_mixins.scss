@@ -1,1 +1,5 @@
 /** Mixins **/
+@mixin bg-color($bg-color, $text-color: $whitish) {
+    background: $bg-color;
+    color: $text-color;
+}
